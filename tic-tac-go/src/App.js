@@ -1,11 +1,17 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+// Import Board and Scoreboard views
+import { Board } from './components/board';
+import { Scoreboard } from './components/scoreboard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+        <BrowserRouter>
+            <Route exact path="/" component={Scoreboard}/>
+            <Route path="/board" component={Board}/>
+        </BrowserRouter>
     </div>
   );
 }
