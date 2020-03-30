@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Storage } from './../storage/storage';
 
 import { Box } from './board-box';
+import './css/board.css';
 
 import * as utils from '../utils/functions';
 
