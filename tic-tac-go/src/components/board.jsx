@@ -63,7 +63,7 @@ export class Board extends Component {
         }
         return (
             <>
-                <Link to="/" className="board-link">Regresar al Tablero</Link>
+                <Link to="/" className="board-link">TABLERO</Link>
                 <div className="board-wrapper">
                     <div className="board">
                         <h2 className="board-heading">{status}</h2>
