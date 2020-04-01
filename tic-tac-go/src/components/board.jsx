@@ -59,7 +59,7 @@ export class Board extends Component {
             status = "Game Drawn!";
             this.storage.update(['Game Drawn'])
         } else {
-            status = `It is ${[this.state.xIsNext ? 'X' : 'O']}`
+            status = `Es el turno de ${[this.state.xIsNext ? 'X' : 'O']}`
         }
         return (
             <>
